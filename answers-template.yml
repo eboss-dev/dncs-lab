@@ -1,18 +1,18 @@
-FirstName: {{ Emanuele }}
-LastName: {{ Boscari }}
-MatriculationNumber: {{ 202337 }}
+FirstName: Emanuele
+LastName: Boscari
+MatriculationNumber: 202337
 AcademicYear: 2020-2021
-GitHubUrl: https://github.com/eboss-dev/dncs-lab
+GitHubUrl: https://github.com/eboss-dev/dncs-lab.git
 Subnets:
   HostsA:
-    RequiredAddresses: {{ HostsASubnetRequiredAddresses }}
-    SubnetAddress: YourHostsASubnetAddress
-    SubnetPrefixLength: YourHostsASubnetPrefixLength
+    RequiredAddresses: 248
+    SubnetAddress: 192.168.3.0
+    SubnetPrefixLength: 24
   HostsB:
-    RequiredAddresses: {{ HostsBSubnetRequiredAddresses }}
-    SubnetAddress: YourHostsBSubnetAddress
-    SubnetPrefixLength: YourHostsBSubnetPrefixLength
+    RequiredAddresses: 436
+    SubnetAddress: 192.168.4.0
+    SubnetPrefixLength: 23
   Hub:
-    RequiredAddresses: {{ HubSubnetRequiredAddresses }}
-    SubnetAddress: YourHubSubnetAddress
-    SubnetPrefixLength: YourHubSubnetPrefixLength
+    RequiredAddresses: 315
+    SubnetAddress: 192.168.6.0
+    SubnetPrefixLength: 23
