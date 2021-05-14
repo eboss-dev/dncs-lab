@@ -2,7 +2,7 @@ FirstName: {{ Emanuele }}
 LastName: {{ Boscari }}
 MatriculationNumber: {{ 202337 }}
 AcademicYear: 2020-2021
-GitHubUrl: YourGithubRepositoryURL
+GitHubUrl: https://github.com/eboss-dev/dncs-lab
 Subnets:
   HostsA:
     RequiredAddresses: {{ HostsASubnetRequiredAddresses }}
