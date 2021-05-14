@@ -196,6 +196,7 @@ host-a and a host-b need to be in different subnets. The approach to solve this 
 | router-2 |   enp0s9  |   192.168.128.66   | D |           
 |          |   enp0s8  |   192.168.6.1      | C |         
 |  host-c  |   enp0s8  |   192.168.6.254    | C |   
+
 <br><br><br>     
 
 
